@@ -1,33 +1,31 @@
-# PhonePilot 🚦
+# Bot_Telefone
 
-![Aviso](https://img.shields.io/badge/Usage-Educational%20Only-red)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-**PhonePilot** — automação educacional para descoberta de contatos em páginas web (scraper).  
-**Uso:** fins educacionais e testes autorizados apenas. Não usar para spam, marketing ou invasão de privacidade.
+## Descrição
 
----
+O **Bot_Telefone** é um projeto desenvolvido em Python com o objetivo de extrair números de telefone de anúncios classificados no site [django-anuncios.solyd.com.br](https://django-anuncios.solyd.com.br/). Utilizando as bibliotecas `requests`, `BeautifulSoup` e `threading`, o bot realiza requisições HTTP, analisa o conteúdo HTML das páginas e coleta os números de telefone presentes nos anúncios.
 
-## Conteúdo deste arquivo (tudo em 1 só)
-- Instalação (virtualenv + requirements)
-- Geração do script `phone_pilot.py` (here-doc)
-- Comandos para gerar `requirements.txt` e `LEGAL.md` (se necessário)
-- Execução e exemplos
-- Aviso legal / LEGAL
+## Funcionalidades
 
----
+- **Extração de Números de Telefone**: Coleta números de telefone de anúncios classificados no site especificado.
+- **Processamento Paralelo**: Utiliza múltiplas threads para acelerar o processo de extração.
+- **Armazenamento de Dados**: Salva os números de telefone encontrados em um arquivo CSV para posterior análise.
 
-## 1) Instalação rápida
+## Tecnologias Utilizadas
 
-Recomendado: criar virtualenv e instalar dependências.
+- **Python**: Linguagem de programação principal.
+- **requests**: Para realizar requisições HTTP ao site alvo.
+- **BeautifulSoup**: Para parsing e extração de dados HTML.
+- **threading**: Para implementar processamento paralelo e otimizar a extração de dados.
 
-```bash
-# criar e ativar venv (Linux/macOS)
-python3 -m venv venv
-source venv/bin/activate
+## Estrutura do Repositório
 
-# Windows (PowerShell)
-# python -m venv venv
-# .\venv\Scripts\Activate.ps1
 
-# instalar dependências (se você já tem requirements.txt)
-pip install -r requirements.txt
+## Instalação
+
+1. **Clone o Repositório**:
+
+   ```bash
+   git clone https://github.com/LightProgrammer000/Bot_Telefone.git
+   cd Bot_Telefone
