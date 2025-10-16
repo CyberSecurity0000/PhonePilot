@@ -2,6 +2,10 @@
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
+## ⚠️ AVISO IMPORTANTE: Propósito Educacional
+
+**Este software foi desenvolvido exclusivamente para fins de estudo, laboratório (lab) e revisão acadêmica em um ambiente seguro e controlado. O uso desta ferramenta para atividades ilícitas, invasão de sistemas ou qualquer propósito malicioso é estritamente proibido e de total responsabilidade do usuário.**
+
 ## Descrição
 
 O **Bot_Telefone** é um projeto desenvolvido em Python com o objetivo de extrair números de telefone de anúncios classificados no site [django-anuncios.solyd.com.br](https://django-anuncios.solyd.com.br/). Utilizando as bibliotecas `requests`, `BeautifulSoup` e `threading`, o bot realiza requisições HTTP, analisa o conteúdo HTML das páginas e coleta os números de telefone presentes nos anúncios.
